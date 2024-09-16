@@ -1,3 +1,7 @@
+# michael-h.dk
+
+My own website, reformatted to use Astro build
+
 # Astro Starter Kit: Minimal
 
 ```sh
