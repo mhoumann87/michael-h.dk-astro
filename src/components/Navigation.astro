@@ -1,0 +1,17 @@
+---
+
+const sites = [
+  {href: '/', name:'home'}, 
+  {href: '/javascript', name: 'javascript'},
+  {href: '/art', name: 'art'},
+  {href: '/games', name: 'games'},
+  {href: '/contact', name: 'contact'},
+];
+---
+
+<nav>
+  <ul class="links">
+  {sites.map(site => <li class="nav-link"><a href={`${site.href}`}>{site.name}</a></li>)}
+</ul>
+</nav>
+
