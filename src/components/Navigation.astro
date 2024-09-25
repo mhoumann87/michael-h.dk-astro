@@ -10,8 +10,14 @@ const sites = [
 ---
 
 <nav>
-  <ul class="links">
+  <ul class="links flex">
   {sites.map(site => <li class="nav-link"><a href={`${site.href}`}>{site.name}</a></li>)}
 </ul>
 </nav>
+
+<style>
+  ul {
+    list-style: none;
+  }
+</style>
 

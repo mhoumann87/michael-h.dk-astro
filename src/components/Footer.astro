@@ -1,0 +1,14 @@
+---
+import SocialIcons from './SocialIcons.astro';
+---
+
+<footer class="flex">
+  <div class="copy">
+    <p>
+      &copy;{new Date().getFullYear() === 2024 ? `2024` : `2024 - ${new Date().getFullYear()}`} by <a href="mailto:admin@michael-h.dk">Michael Houmann</a>
+    </p>
+  </div>
+
+  <SocialIcons />
+
+</footer>
