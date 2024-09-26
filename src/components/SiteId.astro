@@ -4,8 +4,11 @@ import logo from '../images/logo.svg';
 ---
 
 <div class="site-id flex">
+  <a href="/">
   <Image class="logo" src={logo} alt="Logo for michael-h.dk" />
-  <a href="/"><h2>michael-h.dk</h2></a>
+  <span class="sr-only">Link To Front Page</span>
+</a>
+  <a href="/"><span class="sr-only">Link To Front Page</span><h2>michael-h.dk</h2></a>
 </div>
 
 <style>
